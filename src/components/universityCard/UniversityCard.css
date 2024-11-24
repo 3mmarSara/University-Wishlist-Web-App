@@ -1,0 +1,41 @@
+.university-card{
+    width: calc((100% - 30px) / 4) !important;
+    background-color: #F6F6F6 !important;
+    border: none !important;
+    padding: 15px;
+}
+.university-card .card-body{
+    padding: 0px 0px 10px 0px;
+}
+.university-card .name{
+    color: var(--secondary-color) !important;
+    flex-grow: 1 !important;
+}
+
+.university-card .add-btn{
+    width: 100% !important;
+    background-color: var(--primary-color) !important;
+}
+
+.university-card .add-btn:hover{
+    background-color: var(--primary-color-hover) !important;
+}
+
+
+@media screen and (max-width: 1024px){
+    .university-card{
+        width: calc((100% - 20px) / 3) !important;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .university-card{
+        width: calc((100% - 10px) / 2) !important;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .university-card{
+        width: 100% !important;
+    }
+}

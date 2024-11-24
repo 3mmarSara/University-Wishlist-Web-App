@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.universities-container{
+    margin: 30px 100px;
+    padding: 0px 12px;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+
+.universities-container header .title{
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--font-family);
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.universities-container .search-bar{
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.universities-container .search-bar:focus{
+    border-color: var(--primary-color) ;
+}
+
+.universities-container .loader-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.universities-container .university-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.universities-container .pagination-container{
+    display: flex;
+    justify-content: center;
+}
+
+.active>.page-link, .page-link.active {
+    z-index: 3;
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.page-link {
+    color: var(--secondary-color);
+}
+
+@media screen and (max-width: 768px){
+    .universities-container{
+        margin: 30px 60px;
+    }
+}
+
+
+@media screen and (max-width: 550px){
+    .universities-container{
+        margin: 30px 20px;
+    }
+}

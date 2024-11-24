@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@500;700&family=Poppins:wght@400;700&family=Roboto:wght@700&display=swap');
+
+:root {
+    --primary-color: #0054A6;
+    --secondary-color: #c61728;
+    --font-family: 'Poppins', sans-serif;
+    --primary-color-hover: #0053a6b5;
+    --secondary-color-hover: #c61728e1;
+  }

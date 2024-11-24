@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.country-filter{
+    background-color: #cccccc69;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:10px;
+    padding: 10px 16px;
+    border-radius: 10px;
+    
+}
+
+.country-filter .country-option{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    padding: 2px 10px;
+}
+
+
+.country-filter .country-option:hover{
+    background-color: var(--secondary-color-hover);
+    border-color:var(--secondary-color-hover) ;
+    color: white;
+}
+
+
+.country-filter .active {
+    font-weight: bold; 
+    color: white;
+    background-color: var(--secondary-color);
+    border-color:var(--secondary-color) ;
+  }

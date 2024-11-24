@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wishlist-container {
+    margin: 30px 100px;
+    padding: 0px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.wishlist-container header .title {
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--font-family);
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .wishlist-container {
+        margin: 30px 60px;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .wishlist-container {
+        margin: 30px 20px;
+    }
+}
