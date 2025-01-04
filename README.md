@@ -21,11 +21,11 @@ A React application powered by Vite that allows users to browse and manage a wis
 
 ### Universities Page
 
-- ![image](https://github.com/user-attachments/assets/cecf0e9b-5564-4a7a-a8ef-3e4c158aca6f)
+![image](https://github.com/user-attachments/assets/cecf0e9b-5564-4a7a-a8ef-3e4c158aca6f)
 
 ### Wishlist Page
 
-- ![image](https://github.com/user-attachments/assets/c21e3634-cbb0-485c-9a8c-2983a66ebba9)
+![image](https://github.com/user-attachments/assets/c21e3634-cbb0-485c-9a8c-2983a66ebba9)
 
 
 
